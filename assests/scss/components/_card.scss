@@ -1,0 +1,16 @@
+
+@use "../base/variables";
+
+.card{
+    background: variables.$light;
+    padding: variables.$padding;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+
+    h2{
+        font-size: 24px;
+    }
+
+    p{
+        color: #555;
+    }
+}

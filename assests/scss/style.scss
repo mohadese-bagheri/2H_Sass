@@ -1,0 +1,42 @@
+
+@use "./base/reset";
+@use "./base/variables";
+@use "./components/buttons";
+@use "./components/card";
+@use "./layout/containor";
+@use "./base/mixin.scss";
+
+.box {
+    background-color: variables.$primary;
+    padding: variables.$padding;
+}
+
+.ard-actions {
+    @include mixin.flex-center(space-between,center,column);
+    gap: 10px;
+}
+
+.card {
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+
+    h2 {
+        color: white;
+        font-size: 22px;
+    }
+
+
+    p {
+        color: #aaa;
+        font-size: 16px;
+    }
+
+    input {
+        cursor: pointer;
+    }
+
+    button {
+        background-color: #ff4d4d;
+    }
+}

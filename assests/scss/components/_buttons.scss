@@ -1,0 +1,9 @@
+
+@use "../base/variables";
+
+.btn{
+    padding: 12px 15px;
+    border: none;
+    border-radius: variables.$radios;
+    cursor: pointer;
+}
